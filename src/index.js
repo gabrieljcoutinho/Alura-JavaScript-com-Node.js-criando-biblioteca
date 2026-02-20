@@ -20,4 +20,9 @@ function verificaPalavrasDuplicadas(texto){
         const listaPalavras = texto.split(' ');
         const resultado = {};
         // objeto[propriedade] = valor;
+
+        listaPalavras.forEach(){
+            
+        }
+
 }
