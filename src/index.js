@@ -16,6 +16,10 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 //     "computador": 2
 // }
 
+function quebraEmParagrafos(texto){
+    
+}
+
 function verificaPalavrasDuplicadas(texto){
         const listaPalavras = texto.split(' ');
         const resultado = {};
