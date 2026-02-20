@@ -18,4 +18,6 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 
 function verificaPalavrasDuplicadas(texto){
         const listaPalavras = texto.split(' ');
+        const resultado = {};
+        // objeto[propriedade] = valor;
 }
