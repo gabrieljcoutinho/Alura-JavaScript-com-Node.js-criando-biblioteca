@@ -8,6 +8,7 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 })
 
 //Criar um Array ed palavras com as palavras
+//Contar as ocorrencias
 
 function verificaPalavrasDuplicadas(texto){
 
