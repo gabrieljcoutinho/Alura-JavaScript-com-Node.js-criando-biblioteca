@@ -13,7 +13,7 @@ function quebraEmParagrafos(texto){
         const contagem = paragrafos.map((paragrafo) => {
                 return verificaPalavrasDuplicadas(paragrafo)
         })
-        console.log(paragrafos)
+        console.log(contagem)
 }
 
 function verificaPalavrasDuplicadas(texto){
