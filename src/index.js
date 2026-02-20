@@ -11,6 +11,11 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 //Contar as ocorrencias
 //montar um objeto com o resultado
 
+// {
+//     "web": 5,
+//     "computador": 2
+// }
+
 function verificaPalavrasDuplicadas(texto){
 
 }
