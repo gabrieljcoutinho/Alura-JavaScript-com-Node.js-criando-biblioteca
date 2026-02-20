@@ -7,4 +7,3 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
     console.log(texto)
 })
 
-console.log(link)
