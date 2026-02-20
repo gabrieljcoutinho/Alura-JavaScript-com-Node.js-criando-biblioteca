@@ -9,7 +9,8 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 })
 
 function quebraEmParagrafos(texto){
-        const paragrafos = texto.toLowerCase().split('\n')
+        const paragrafos = texto.toLowerCase().split('\n');
+        const contagem = paragrafos.map()
         console.log(paragrafos)
 }
 
