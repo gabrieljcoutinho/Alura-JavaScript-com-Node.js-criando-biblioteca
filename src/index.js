@@ -18,6 +18,7 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 
 function quebraEmParagrafos(texto){
         const paragrafos = texto.toLowerCase().split('\n')
+        console.log(paragrafos)
 }
 
 function verificaPalavrasDuplicadas(texto){
