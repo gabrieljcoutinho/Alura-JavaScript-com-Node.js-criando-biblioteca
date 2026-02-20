@@ -22,7 +22,7 @@ function verificaPalavrasDuplicadas(texto){
         // objeto[propriedade] = valor;
 
         listaPalavras.forEach(palavra => {
-                resultado[palavra]
+                resultado[palavra] = 
         })
 
 }
