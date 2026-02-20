@@ -21,8 +21,6 @@ function verificaPalavrasDuplicadas(texto){
         const resultado = {};
         // objeto[propriedade] = valor;
 
-        listaPalavras.forEach(){
-            
-        }
+        listaPalavras.forEach()
 
 }
