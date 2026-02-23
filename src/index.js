@@ -13,7 +13,7 @@ function contaPalavras(texto){
 }
 
 function extraiParagrafos(texto){
-        return = texto.toLowerCase().split('\n');
+        return texto.toLowerCase().split('\n');
 }
 
 function quebraEmParagrafos(texto){
