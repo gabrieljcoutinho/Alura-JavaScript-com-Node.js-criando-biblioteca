@@ -9,11 +9,14 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 })
 
 function contaPalavras(texto){
-        
+
+}
+
+function extraiParagrafos(texto){
+        const paragrafos = texto.toLowerCase().split('\n');
 }
 
 function quebraEmParagrafos(texto){
-        const paragrafos = texto.toLowerCase().split('\n');
         const contagem = paragrafos.flatMap( (paragrafo) => {
                         if(!paragrafo) return [];
                         return verificaPalavrasDuplicadas(paragrafo)
