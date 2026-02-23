@@ -21,9 +21,6 @@ function extraiParagrafos(texto){
         return texto.toLowerCase().split('\n');
 }
 
-function quebraEmParagrafos(texto){
-
-}
 
 function limpaPalavras(palavra){
         return palavra.replace(/[.,\/#!$%^&*;:{}=\-_`~()]/g, '');
