@@ -9,7 +9,12 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
 })
 
 function contaPalavras(texto){
+        const contagem = paragrafos.flatMap( (paragrafo) => {
+                if(!paragrafo) return [];
+                return verificaPalavrasDuplicadas(paragrafo)
+})
 
+console.log(contagem)
 }
 
 function extraiParagrafos(texto){
@@ -17,12 +22,7 @@ function extraiParagrafos(texto){
 }
 
 function quebraEmParagrafos(texto){
-        const contagem = paragrafos.flatMap( (paragrafo) => {
-                        if(!paragrafo) return [];
-                        return verificaPalavrasDuplicadas(paragrafo)
-        })
 
-        console.log(contagem)
 }
 
 function limpaPalavras(palavra){
