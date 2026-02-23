@@ -16,7 +16,9 @@ function quebraEmParagrafos(texto){
         console.log(contagem)
 }
 
+function limpaPalavras(){
 
+}
 
 function verificaPalavrasDuplicadas(texto){
         const listaPalavras = texto.split(' ');
