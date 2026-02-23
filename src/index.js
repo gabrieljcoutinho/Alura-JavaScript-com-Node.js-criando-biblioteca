@@ -4,11 +4,12 @@ const caminhoArquivo = process.argv;
 const link = caminhoArquivo[2];
 
 fs.readFile(link, 'utf-8', (erro, texto) => {
-    quebraEmParagrafos(texto)
+    contaPalavras(texto)
 
 })
 
 function contaPalavras(texto){
+        const paragrafos = extraiParagrafos(texto)
         const contagem = paragrafos.flatMap( (paragrafo) => {
                 if(!paragrafo) return [];
                 return verificaPalavrasDuplicadas(paragrafo)
