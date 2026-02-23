@@ -17,7 +17,7 @@ function quebraEmParagrafos(texto){
 }
 
 function limpaPalavras(){
-                return palavra.replace(/[.,\/#!$%^&*;:{}=\-_`~()]/g);
+                return palavra.replace(/[.,\/#!$%^&*;:{}=\-_`~()]/g, '');
 }
 
 function verificaPalavrasDuplicadas(texto){
