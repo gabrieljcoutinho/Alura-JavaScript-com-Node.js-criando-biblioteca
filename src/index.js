@@ -17,7 +17,7 @@ function quebraEmParagrafos(texto){
 }
 
 function limpaPalavras(){
-                return palavra.replace('(', ' ');
+                return palavra.replace();
 }
 
 function verificaPalavrasDuplicadas(texto){
