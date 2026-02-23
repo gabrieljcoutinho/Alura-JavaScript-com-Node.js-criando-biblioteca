@@ -27,7 +27,7 @@ function verificaPalavrasDuplicadas(texto){
 
         listaPalavras.forEach(palavra => {
                 const palavraLimpa = limpaPalavras(palavra);
-                resultado[palavra] = (resultado[palavra] || 0) + 1
+                resultado[palavraLimpa] = (resultado[palavraLimpa] || 0) + 1
         })
 
       return resultado
